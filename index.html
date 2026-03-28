@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>国産ミームコイン図鑑</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 20px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .sub {
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 12px;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #334155;
+    }
+
+    /* ✅ 正方形ロゴ */
+    .logo {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;   /* ← ロゴ重視（切れない） */
+      background: #0f172a;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 5px;
+      font-size: 12px;
+      background: #475569;
+      padding: 3px 7px;
+      border-radius: 5px;
+    }
+
+    .danger {
+      color: #f87171;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: #64748b;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🇯🇵 国産ミームコイン図鑑
+  <div class="sub">Japanese Meme Coin Database</div>
+</header>
+
+<div class="container">
+
+  <h2>🔥 人気コイン</h2>
+
+  <div class="grid">
+
+    <!-- 114514 -->
+    <a href="114514.html">
+      <div class="card">
+        <img src="114514.png" class="logo">
+        <div class="name">🥇 114514</div>
+        <div class="tag">Solana</div>
+        <div class="danger">危険度 ★★★☆☆</div>
+      </div>
+    </a>
+
+    <!-- 21 -->
+    <a href="21.html">
+      <div class="card">
+        <img src="21.png" class="logo">
+        <div class="name">🥈 21</div>
+        <div class="tag">Solana</div>
+        <div class="danger">危険度 ★★★★★</div>
+      </div>
+    </a>
+
+    <!-- yaju -->
+    <a href="yaju.html">
+      <div class="card">
+        <img src="yaju.png" class="logo">
+        <div class="name">🥉 YAJU</div>
+        <div class="tag">Solana</div>
+        <div class="danger">危険度 ★★★☆☆</div>
+      </div>
+    </a>
+
+    <!-- misaka -->
+    <a href="misaka.html">
+      <div class="card">
+        <img src="misaka.png" class="logo">
+        <div class="name">MISAKA</div>
+        <div class="tag">Ethereum</div>
+        <div class="danger">危険度 ★★★☆☆</div>
+      </div>
+    </a>
+
+  </div>
+
+</div>
+
+<footer>
+  ⚠️ このサイトは情報提供のみです。投資は自己責任（DYOR）
+</footer>
+
+</body>
+</html>
